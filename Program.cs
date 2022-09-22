@@ -2,7 +2,7 @@
     static void Main() {
         var program = "Y";
 
-        while(program == "Y") {
+        while(program == "Y" || program == "y") {
             Console.WriteLine("\n==== Calculator ====");
             Console.WriteLine("Enter the action to be performed");
             Console.WriteLine("- Press 1 for Addition");
